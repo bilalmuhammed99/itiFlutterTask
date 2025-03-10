@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iti_task/new_screen.dart';
+import 'package:flutter_iti_task/vlidation_form_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,7 +12,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: NewScreen(),
+      home: LoginScreen(),
     );
   }
 }
