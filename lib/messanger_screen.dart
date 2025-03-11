@@ -12,6 +12,11 @@ class MessengerScreen extends StatelessWidget {
       backgroundColor:
           Colors.grey.shade900, // Dark background to mimic the screenshot
       appBar: AppBar(
+        actions: [
+          IconButton(onPressed: () {}, icon: const Icon(Icons.camera_alt)),
+          IconButton(
+              onPressed: () {}, icon: const Icon(Icons.store_mall_directory)),
+        ],
         backgroundColor: Colors.grey.shade900,
         elevation: 0,
         title: const Text(
